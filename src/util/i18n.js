@@ -2,6 +2,8 @@ import i18n from 'i18next';
 import Backend from 'i18next-http-backend';
 import LanguageDetector from 'i18next-browser-languagedetector';
 import {initReactI18next} from 'react-i18next';
+import TranslationDE from '../locales/de/translationDE.json';
+import TranslationEN from '../locales/en/translationEN.json';
 
 const detectionOptions = {
   // order: ['path', 'cookie', 'navigator', 'localStorage', 'subdomain', 'queryString', 'htmlTag'],
@@ -30,20 +32,10 @@ i18n
     },
     resources: {
       en: {
-        translation: {
-          description: {
-            part1: 'ENglish ',
-            part2: 'Learn React'
-          }
-        }
+        translation: TranslationEN
       },
       de: {
-        translation: {
-          description: {
-            part1: 'Ändere <1>src/App.js</1> und speichere um neu zu laden.',
-            part2: 'Lerne React'
-          }
-        }
+        translation: TranslationDE
       }
     }
   });

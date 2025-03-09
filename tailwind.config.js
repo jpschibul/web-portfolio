@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+  darkMode: 'selector',
   theme: {
     extend: {
       screens: {
@@ -8,6 +9,10 @@ export default {
         md: '768px',
         lg: '976px',
         xl: '1440px'
+      },
+      lineHeight: {
+        'nav': '1.5rem',
+        '12': '3rem'
       }
     },
     colors: {

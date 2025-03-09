@@ -1,11 +1,12 @@
 import './index.css';
+import Homepage from './pages/Homepage';
+import './util/i18n';
 
 function App() {
   return (
     <>
       <div>
-        {/* <Homepage /> */}
-        <h1 className="text-3xl text-red-500 font-spline underline">Hello world!</h1>
+        <Homepage />
       </div>
     </>
   );

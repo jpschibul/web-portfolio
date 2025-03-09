@@ -26,7 +26,8 @@ export default tseslint.config(
       'react-refresh/only-export-components': ['warn', {allowConstantExport: true}],
       'no-console': 2,
       '@typescript-eslint/no-unused-vars': ['error'],
-      '@typescript-eslint/no-explicit-any': 'off'
+      '@typescript-eslint/no-explicit-any': 'off',
+      '@typescript-eslint/no-unused-expressions': 'off'
     },
     settings: {
       react: {

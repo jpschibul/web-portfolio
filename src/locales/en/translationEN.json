@@ -1,0 +1,11 @@
+{
+  "description": {
+    "part1": "ENglish ",
+    "part2": "Learn React"
+  },
+  "menu": [
+    {"label": "Expertise", "anchor": "expertise"},
+    {"label": "About", "anchor": "about"},
+    {"label": "Contact", "anchor": "contact"}
+  ]
+}

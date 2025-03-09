@@ -1,7 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-.dm-mono-light {
+
+@layer base {
+  body {
+    @apply bg-bgcolor dark:bg-bgcolor-dark;
+  }
+  h1 {
+    font-family: theme('fontFamily.spline');
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 110%; /* 4.4rem */
+    letter-spacing: -0.1rem;
+  }
+}
+
+@layer utilities {
+  .component-padding {
+    padding: 1rem;
+  }
+}
+/* .dm-mono-light {
   font-family: 'DM Mono', monospace;
   font-weight: 300;
   font-style: normal;
@@ -35,4 +54,4 @@
   font-family: 'DM Mono', monospace;
   font-weight: 500;
   font-style: italic;
-}
+} */
