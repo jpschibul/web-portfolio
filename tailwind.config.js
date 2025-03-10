@@ -13,6 +13,22 @@ export default {
       lineHeight: {
         'nav': '1.5rem',
         '12': '3rem'
+      },
+      keyframes: {
+        'open-menu': {
+          '0%': {transform: 'scaleX(0)'},
+          // '80%': {transform: 'scaleX(1.2)'},
+          '100%': {transform: 'scaleX(1)'}
+        },
+        'close-menu': {
+          '0%': {transform: 'scaleX(1)'},
+          // '80%': {transform: 'scaleX(1.2)'},
+          '100%': {transform: 'scaleX(0)'}
+        }
+      },
+      animation: {
+        'open-menu': 'open-menu 0.5s ease-in-out forwards',
+        'close-menu': 'close-menu 0.5s ease-in-out backwards'
       }
     },
     colors: {
