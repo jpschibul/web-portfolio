@@ -1,4 +1,4 @@
-import {MenuLink} from '../../types/Locales.types';
+import {MenuLink} from '../../util/types/Locales.types';
 
 type Props = {
   menuLinks: MenuLink[];
@@ -6,7 +6,7 @@ type Props = {
 
 const MenuLinks = ({menuLinks}: Props) => {
   return (
-    <div className="hidden lg:flex w-[28%] font-light  justify-around">
+    <div className="hidden w-[28%] justify-around font-light lg:flex">
       {menuLinks.map((item, i) => (
         <a key={i} href={`#${item.anchor}`}>
           {item.label}

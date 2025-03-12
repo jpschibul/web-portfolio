@@ -16,42 +16,11 @@
 }
 
 @layer utilities {
-  .component-padding {
-    padding: 1rem;
+  .gradient-basics {
+    position: absolute;
+    z-index: -1;
+    flex-shrink: 0;
+    filter: blur(100px);
+    @apply bg-light-gradient dark:bg-dark-gradient;
   }
 }
-/* .dm-mono-light {
-  font-family: 'DM Mono', monospace;
-  font-weight: 300;
-  font-style: normal;
-}
-
-.dm-mono-regular {
-  font-family: 'DM Mono', monospace;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.dm-mono-medium {
-  font-family: 'DM Mono', monospace;
-  font-weight: 500;
-  font-style: normal;
-}
-
-.dm-mono-light-italic {
-  font-family: 'DM Mono', monospace;
-  font-weight: 300;
-  font-style: italic;
-}
-
-.dm-mono-regular-italic {
-  font-family: 'DM Mono', monospace;
-  font-weight: 400;
-  font-style: italic;
-}
-
-.dm-mono-medium-italic {
-  font-family: 'DM Mono', monospace;
-  font-weight: 500;
-  font-style: italic;
-} */

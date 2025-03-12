@@ -4,12 +4,12 @@ import reactHooks from 'eslint-plugin-react-hooks';
 import reactRefresh from 'eslint-plugin-react-refresh';
 import eslintConfigPrettier from 'eslint-config-prettier';
 import tseslint from 'typescript-eslint';
+import tailwind from 'eslint-plugin-tailwindcss';
 
 export default tseslint.config(
   {ignores: ['dist']},
   {
     extends: [js.configs.recommended, ...tseslint.configs.recommended],
-    files: ['**/*.{js,mjs,cjs,ts,jsx,tsx}'],
     languageOptions: {
       ecmaVersion: 2021,
       sourceType: 'module',
@@ -19,7 +19,8 @@ export default tseslint.config(
     plugins: {
       'react-hooks': reactHooks,
       'react-refresh': reactRefresh,
-      'esint-config-prettier': eslintConfigPrettier
+      'esint-config-prettier': eslintConfigPrettier,
+      'eslint-plugin-tailwindcss': tailwind
     },
     rules: {
       ...reactHooks.configs.recommended.rules,
@@ -28,6 +29,8 @@ export default tseslint.config(
       '@typescript-eslint/no-unused-vars': ['error'],
       '@typescript-eslint/no-explicit-any': 'off',
       '@typescript-eslint/no-unused-expressions': 'off'
+      // 'tailwindcss/classnames-order': 'warn',
+      // 'tailwindcss/no-custom-classname': 'off'
     },
     settings: {
       react: {
@@ -36,51 +39,3 @@ export default tseslint.config(
     }
   }
 );
-
-// import globals from 'globals';
-// import pluginJs from '@eslint/js';
-// import tseslint from 'typescript-eslint';
-// import pluginReact from 'eslint-plugin-react';
-// import eslintConfigPrettier from 'eslint-config-prettier';
-
-// /** @type {import('eslint').Linter.Config[]} */
-// export default [
-//   ...tseslint.configs.recommended,
-//   pluginReact.configs.flat.recommended,
-//   pluginJs.configs.recommended,
-//   eslintConfigPrettier,
-//   {files: ['**/*.{js,mjs,cjs,ts,jsx,tsx}']},
-//   {
-//     languageOptions: {
-//       ecmaVersion: 2022,
-//       sourceType: 'module',
-//       globals: globals.browser
-//     }
-//   },
-//   {ignores: ['**/node_modules/', '.git/', '**/dist/']},
-//   {
-//     settings: {
-//       react: {
-//         version: 'detect'
-//       }
-//     }
-//   },
-//   {
-//     rules: {
-//       // 'import/no-unresolved': ['error', {ignore: ['\\.svg\\?react$']}],
-//       'react/jsx-uses-react': 'off',
-//       'react/react-in-jsx-scope': 'off',
-//       'no-prototype-builtins': 'off',
-//       'no-console': 2,
-//       'no-unused-vars': 'off',
-//       '@typescript-eslint/no-unused-vars': ['error'],
-//       '@typescript-eslint/no-unused-expressions': ['error', {allowTernary: true}],
-//       'no-debugger': 'warn',
-//       '@typescript-eslint/no-explicit-any': ['off'],
-//       'react/jsx-closing-bracket-location': [
-//         1,
-//         {'selfClosing': 'line-aligned', nonEmpty: 'after-props'}
-//       ]
-//     }
-//   }
-// ];

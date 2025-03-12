@@ -29,6 +29,14 @@ export default {
       animation: {
         'open-menu': 'open-menu 0.5s ease-in-out forwards',
         'close-menu': 'close-menu 0.5s ease-in-out backwards'
+      },
+      backgroundImage: {
+        'custom-gradient':
+          'linear-gradient(157deg, rgba(178, 197, 255, 0.8) 27.21%, rgba(149, 135, 217, 0.8) 65.92%, rgba(189, 143, 236, 0.8) 79.17%)',
+        'light-gradient':
+          'linear-gradient(157deg, rgba(178, 197, 255, 0.8) 27.21%, rgba(149, 135, 217, 0.8) 65.92%, rgba(189, 143, 236, 0.8) 79.17%)',
+        'dark-gradient':
+          'linear-gradient(139deg, rgba(34, 27, 68, 0.30) 19.77%, rgba(129, 114, 198, 0.30) 43.67%, rgba(158, 112, 205, 0.30) 78.14%);'
       }
     },
     colors: {
