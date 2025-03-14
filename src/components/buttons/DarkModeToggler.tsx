@@ -1,13 +1,14 @@
 import LightIcon from '../../assets/icons/lightMode.svg';
 import DarkIcon from '../../assets/icons/darkMode.svg';
-import {useTheme} from '../../util/useTheme';
+import {useDarkMode} from '../../util/DarkModeProvider';
 
 const DarkModeToggler = () => {
-  const {darkMode, toggleMode} = useTheme();
+  const {isDarkMode, toggleDarkMode} = useDarkMode();
 
+  // console.log(isDarkMode);
   return (
-    <button onClick={toggleMode}>
-      <img src={darkMode ? LightIcon : DarkIcon} alt="icon" />
+    <button onClick={toggleDarkMode}>
+      <img src={isDarkMode ? LightIcon : DarkIcon} alt="icon" />
     </button>
   );
 };
