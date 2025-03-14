@@ -2,9 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+/* :root {
+  @apply bg-bgcolor text-text-color dark:bg-bgcolor-dark dark:text-text-color-dark;
+} */
 @layer base {
   body {
-    @apply bg-bgcolor dark:bg-bgcolor-dark;
+    @apply bg-bgcolor text-text-color dark:bg-bgcolor-dark dark:text-text-color-dark;
   }
   h1 {
     font-family: theme('fontFamily.spline');
@@ -22,5 +25,11 @@
     flex-shrink: 0;
     filter: blur(100px);
     @apply bg-light-gradient dark:bg-dark-gradient;
+  }
+  .display-light {
+    display: block;
+  }
+  .display-dark {
+    display: block;
   }
 }

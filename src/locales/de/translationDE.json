@@ -7,5 +7,10 @@
     {"label": "Erfahrung", "anchor": "expertise"},
     {"label": "Über mich", "anchor": "about"},
     {"label": "Kontakt", "anchor": "contact"}
-  ]
+  ],
+  "hero": {
+    "title": "Webseitengestaltung & Frontend Engineering",
+    "subtitle": "Senior Frontend Developer mit über 5 Jahren Erfahrung mit Focus auf Entwicklung innovativer Webapplikationen",
+    "btnLabel": "Kontakt aufnehmen"
+  }
 }
