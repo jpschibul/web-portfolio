@@ -1,5 +1,5 @@
 import {useState} from 'react';
-import Container from '../general/Container';
+import Container from './Container';
 import DarkModeToggler from '../buttons/DarkModeToggler';
 import LanguageToggler from '../buttons/LanguageToggler';
 import MenuLinks from './MenuLinks';

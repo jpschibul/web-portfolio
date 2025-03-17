@@ -13,5 +13,12 @@
     "title2": "Development",
     "subtitle": "Senior Frontend Developer mit über 5 Jahren Erfahrung mit Focus\nauf Entwicklung innovativer Webapplikationen",
     "btnLabel": "Kontakt aufnehmen"
+  },
+  "motto": {
+    "pt1": "Entwicklung innovativer und zuverlässiger Digitalprodukte mit weitreichendem Einfluss auf Kundenbindung und Unternehmenswachstum.",
+    "pt2": "Mein Ziel ist es, digitale Erlebnisse zu schaffen, die auch greifbare Ergebnisse für meine Kunden erzielen. Bei der Arbeit an Websites lege ich großen Wert darauf, einzigartige Layouts zu gestalten, durchdachte Interaktionen zu integrieren und eine durchdachte Typografie zu verwenden. Diese Elemente werden miteinander kombiniert, um eine nahtlose Benutzererfahrung zu schaffen, die einen bleibenden Eindruck hinterlässt."
+  },
+  "themebtn": {
+    "label": "Kontakt aufnehmen"
   }
 }

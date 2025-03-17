@@ -20,3 +20,9 @@ export type SplineType = {
     light: string;
   };
 };
+
+export type ThemeButtonType = {
+  btnLabel: string;
+  href?: string;
+  onClick?: () => void;
+};

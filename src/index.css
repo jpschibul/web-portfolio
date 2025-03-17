@@ -7,16 +7,13 @@
 } */
 @layer base {
   body {
-    @apply whitespace-pre-line bg-bgcolor leading-none text-text-color dark:bg-bgcolor-dark dark:text-text-color-dark;
+    @apply whitespace-pre-line bg-bgcolor font-dmSans leading-none text-text-color dark:bg-bgcolor-dark dark:text-text-color-dark;
   }
   h1 {
     @apply m-0 font-spline text-3xl font-semibold leading-none text-primary md:text-4xl lg:text-5xl dark:text-primary-dark;
   }
   h2 {
     @apply text-4xl;
-  }
-  p {
-    @apply font-dmSans;
   }
 }
 

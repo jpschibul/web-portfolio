@@ -1,5 +1,5 @@
 import './index.css';
-import Homepage from './pages/Homepage';
+import Homepage from './components/pages/Homepage';
 import './util/i18n';
 import {DarkModeProvider} from './util/DarkModeProvider';
 

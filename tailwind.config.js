@@ -13,9 +13,9 @@ export default {
       fontSize: {
         sm: '0.8rem',
         base: '1rem',
-        medium: '1.25',
+        medium: '1.125',
         xl: '1.25rem',
-        '2xl': '1.563rem',
+        '2xl': '1.75rem',
         '3xl': '2.2rem',
         '4xl': '3.2rem',
         '5xl': '3.8rem'
@@ -23,7 +23,11 @@ export default {
       lineHeight: {
         'nav': '1.5rem',
         'normal': '100%',
-        'loose': '3rem'
+        'loose': '3rem',
+        'extra-loose': '147%'
+      },
+      letterSpacing: {
+        'minus': '-0.035rem'
       },
       keyframes: {
         'open-menu': {
@@ -55,10 +59,12 @@ export default {
       'secondary': '#8172C6',
       'text-color': '#3B3557',
       'bgcolor': '#F2F7FF',
+      'btn': '#6154A2',
       'primary-dark': '#C6C9FC',
       'secondary-dark': '#AA9CEB',
       'text-color-dark': '#D8DBFD',
-      'bgcolor-dark': '#130F27'
+      'bgcolor-dark': '#130F27',
+      'btn-dark': '#C6C9FC'
     },
     fontFamily: {
       dmMono: ['DM Mono', 'Courier New', 'monospace'],
