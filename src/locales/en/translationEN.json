@@ -1,0 +1,62 @@
+{
+  "description": {
+    "part1": "ENglish ",
+    "part2": "Learn React"
+  },
+  "menu": [
+    {"label": "Expertise", "anchor": "expertise"},
+    {"label": "About", "anchor": "about"},
+    {"label": "Contact", "anchor": "contact"}
+  ],
+  "hero": {
+    "title": "Websites & Frontend",
+    "title2": "Development",
+    "subtitle": "Senior Frontend Engineer with 5+ years of experience - strong focus\non creating innovative and scalable web solutions",
+    "btnLabel": "Get in Touch"
+  },
+  "motto": {
+    "pt1": "Helping businesses creating impactful web experiences that drive customer engagement and success across all digital channels.",
+    "pt2": "My goal is to deliver digital experiences that not only engage and inspire but also achieve tangible results for my clients. When working on websites, I place a strong emphasis on crafting unique layouts, captivating interactions, and good use of typography, blend together these elements to create a seamless user experience that leaves a lasting impression."
+  },
+  "themebtn": {
+    "label": "Get In Touch"
+  },
+  "bentoBox": [
+    {
+      "headingColor": "dark-blue",
+      "title": "Frontend & UX",
+      "desc": "Developing pixel perfects UI interfaces and prototypes that look great on any device in collaboration with designers and backend developers to ensure seamless functionality and a smooth user experience.",
+      "facts": ["Typescript", "React", "Next.js", "Redux", "Material UI", "Tailwind CSS"]
+    },
+    {
+      "headingColor": "dark-purple",
+      "title": "Backend",
+      "desc": "Building and maintaining the server-side of web applications, handling databases, APIs, and the logic that powers the functionality behind the scenes",
+      "facts": ["Node.js", "REST API", "Mongo DB"]
+    },
+    {
+      "headingColor": "dark-purple",
+      "title": "Website Creation & Maintenance",
+      "desc": "Creating visually appealing and user-friendly websites that engage their target audience, from design to deployment and secure maintenance.",
+      "facts": ["HTML", "CSS", "SASS"]
+    },
+    {
+      "headingColor": "dark-blue",
+      "col": 1,
+      "rows": 4,
+      "title": "Tools",
+      "desc": "Using a broad variety of industry standard tools to streamline the process of creating and maintaining modern frontend applications.",
+      "facts": ["Git", "Postman", "Figma Dev", "SSH"]
+    },
+    {
+      "headingColor": "blue",
+      "title": "CMS",
+      "facts": ["Payload CMS", "WordPress"]
+    },
+    {
+      "headingColor": "dark-purple",
+      "title": "Certifications",
+      "facts": ["AWS-(SAA-CO3)"]
+    }
+  ]
+}

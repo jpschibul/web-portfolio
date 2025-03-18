@@ -1,0 +1,56 @@
+{
+  "description": {
+    "part1": "Ändere <1>src/App.js</1> und speichere um neu zu laden.",
+    "part2": "Lerne React Test"
+  },
+  "menu": [
+    {"label": "Erfahrung", "anchor": "expertise"},
+    {"label": "Über mich", "anchor": "about"},
+    {"label": "Kontakt", "anchor": "contact"}
+  ],
+  "hero": {
+    "title": "Webseiten & Frontend",
+    "title2": "Development",
+    "subtitle": "Senior Frontend Developer mit über 5 Jahren Erfahrung mit Focus\nauf Entwicklung innovativer Webapplikationen",
+    "btnLabel": "Kontakt aufnehmen"
+  },
+  "motto": {
+    "pt1": "Entwicklung innovativer und zuverlässiger Digitalprodukte mit weitreichendem Einfluss auf Kundenbindung und Unternehmenswachstum.",
+    "pt2": "Mein Ziel ist es, digitale Erlebnisse zu schaffen, die auch greifbare Ergebnisse für meine Kunden erzielen. Bei der Arbeit an Websites lege ich großen Wert darauf, einzigartige Layouts zu gestalten, durchdachte Interaktionen zu integrieren und eine durchdachte Typografie zu verwenden. Diese Elemente werden miteinander kombiniert, um eine nahtlose Benutzererfahrung zu schaffen, die einen bleibenden Eindruck hinterlässt."
+  },
+  "themebtn": {
+    "label": "Kontakt aufnehmen"
+  },
+  "bentoBox": [
+    {
+      "headingColor": "dark-blue",
+      "title": "Frontend & UX",
+      "desc": "Entwicklung von pixel-getreuen digitalen Oberflächen und Prototypen, die auf jedem Gerät großartig aussehen - in Zusammenarbeit mit Designern und Backend-Entwicklern, um eine nahtlose Funktionalität und eine einwandfreie User Erfahrung zu gewährleisten.",
+      "facts": ["Typescript", "React", "Next.js", "Redux", "Material UI", "Tailwind CSS"]
+    },
+    {
+      "headingColor": "dark-purple",
+      "title": "Backend",
+      "desc": "Erstellung und Wartung der Server-Seite von Webanwendungen, Verwaltung von Datenbanken, APIs und der Logik, die die Funktionalität im Hintergrund steuert.",
+      "facts": ["Node.js", "REST API", "Mongo DB"]
+    },
+    {
+      "headingColor": "dark-purple",
+      "title": "Webseiten - Entwicklung & Hosting",
+      "desc": "Erstellung visuell ansprechender und benutzerfreundlicher Websites, die ihre Zielgruppe ansprechen – von der Gestaltung über die Bereitstellung bis hin zur sicheren Wartung.",
+      "facts": ["HTML", "CSS", "SASS"]
+    },
+    {
+      "headingColor": "dark-blue",
+      "title": "Tools",
+      "desc": "Breit gefächerte Erfahrung in branchenspezifischen Tools zur optimalen Erstellung und Wartung moderner Frontend-Anwendungen.",
+      "facts": ["Git", "Postman", "Figma Dev", "SSH"]
+    },
+    {
+      "headingColor": "dark-blue",
+      "title": "CMS",
+      "facts": ["Payload CMS", "WordPress"]
+    },
+    {"headingColor": "dark-blue", "title": "Certifications", "facts": ["AWS-(SAA-CO3)"]}
+  ]
+}
