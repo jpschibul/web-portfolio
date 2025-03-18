@@ -11,7 +11,7 @@ const SkillsGrid = () => {
   return (
     <SectionWrapper>
       <Container>
-        <div className="flex flex-row gap-3">
+        <div className="flex flex-col gap-3 md:flex-row">
           <div className="flex basis-2/3 flex-col gap-3">
             <GridComponent content={skills[0]} />
             <GridComponent content={skills[2]} />
@@ -26,7 +26,6 @@ const SkillsGrid = () => {
           </div>
           <div className="flex basis-1/3 flex-col justify-between gap-3">
             <GridComponent content={skills[1]} />
-
             <GridComponent content={skills[3]} />
           </div>
         </div>

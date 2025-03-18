@@ -13,11 +13,11 @@ const GridComponent = ({content}: Props) => {
         ) : (
           <h3 className="text-btn dark:text-secondary">{content.title}</h3>
         )}
-        <p className="py-5 pr-5">{content.desc}</p>
+        <p className="hidden py-5 pr-5 md:block">{content.desc}</p>
       </div>
       <div className="flex flex-wrap gap-2 pt-4">
         {content.facts.map(fact => (
-          <p key={fact} className="rounded-3xl border px-5 py-1 font-hanken font-light">
+          <p key={fact} className="rounded-3xl border px-5 py-1 font-hanken text-sm font-light">
             {fact}
           </p>
         ))}

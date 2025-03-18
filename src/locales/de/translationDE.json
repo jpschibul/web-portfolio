@@ -51,6 +51,6 @@
       "title": "CMS",
       "facts": ["Payload CMS", "WordPress"]
     },
-    {"headingColor": "dark-blue", "title": "Certifications", "facts": ["AWS-(SAA-CO3)"]}
+    {"headingColor": "dark-blue", "title": "Certs", "facts": ["AWS-(SAA-CO3)"]}
   ]
 }
