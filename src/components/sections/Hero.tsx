@@ -2,7 +2,6 @@ import SplineContainer from '../general/SplineContainer';
 import Container from '../layout/Container';
 import SectionWrapper from '../layout/SectionWrapper';
 import ThemeButton from '../buttons/ThemeButton';
-
 import {splineLinkList} from '../../assets/spline/SplineLinks';
 import {useTranslation} from 'react-i18next';
 

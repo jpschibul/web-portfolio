@@ -2,6 +2,7 @@ import Hero from '../sections/Hero';
 import Navbar from '../layout/Navbar';
 import Motto from '../sections/Motto';
 import SkillsGrid from '../sections/SkillsGrid';
+import Process from '../sections/Process';
 
 const Homepage = () => {
   return (
@@ -10,6 +11,7 @@ const Homepage = () => {
       <Hero />
       <Motto />
       <SkillsGrid />
+      <Process />
       {/* Gradients top-left*/}
       {/* <div
         aria-hidden="true"

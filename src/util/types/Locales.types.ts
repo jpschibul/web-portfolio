@@ -15,3 +15,13 @@ export type HeroType = {
   subtitle: string;
   btnLabel: string;
 };
+
+export type ProcessType = {
+  title: string;
+  steps: ProcessSteps[];
+};
+
+export type ProcessSteps = {
+  title: string;
+  desc: string;
+};

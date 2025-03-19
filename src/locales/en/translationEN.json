@@ -58,5 +58,26 @@
       "title": "Certs",
       "facts": ["AWS-(SAA-CO3)"]
     }
-  ]
+  ],
+  "process": {
+    "title": "Process",
+    "steps": [
+      {
+        "title": "Requirements & Planning",
+        "desc": "Each successful website or app starts with a clear objective. We engage to fully understand your goals, requirements and audience before we define a project plan including a timeline."
+      },
+      {
+        "title": "Wireframing & Design",
+        "desc": "Creating a strategic content plan and a solid information architecture is essential before we develop a wireframe to outline the functions, pages, and content elements. The content is transformed into a visually engaging layout, where typography, imagery, and design elements are strategically arranged to enhance user experience across all devices."
+      },
+      {
+        "title": "Development",
+        "desc": "Once the design is finalized, the development phase begins. In this step, the design is converted into functional code, and the website is built. Depending on the complexity, this process can take several weeks to months. The code is tested on various devices and browsers to ensure that the website functions properly and provides a consistent user experience across all platforms."
+      },
+      {
+        "title": "Deployment & Maintenance ",
+        "desc": "We will upload the web files and databases to the live server and then the site is made publicly accessible. To keep up to date we offer maintenance services to keep up with the ever-changing web standards and technologies for your website."
+      }
+    ]
+  }
 }

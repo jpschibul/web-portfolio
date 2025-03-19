@@ -15,10 +15,9 @@ export type SectionType = {
 };
 
 export type SplineType = {
-  links: {
-    dark: string;
-    light: string;
-  };
+  title: string;
+  dark: string;
+  light: string;
 };
 
 export type ThemeButtonType = {

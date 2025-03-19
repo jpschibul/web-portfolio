@@ -16,6 +16,9 @@
     @apply text-4xl;
   }
   h3 {
+    @apply font-dmMono text-3xl font-semibold text-secondary md:text-4xl dark:text-secondary-dark;
+  }
+  h4 {
     @apply font-dmMono text-xl font-semibold leading-9 md:text-2xl;
   }
 }
@@ -33,5 +36,13 @@
   }
   .display-dark {
     display: block;
+  }
+
+  .heading-purple {
+    @apply text-btn dark:text-secondary;
+  }
+
+  .heading-blue {
+    @apply text-[#5F7CD3] dark:text-[#84A1F7];
   }
 }

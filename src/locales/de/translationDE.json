@@ -52,5 +52,26 @@
       "facts": ["Payload CMS", "WordPress"]
     },
     {"headingColor": "dark-blue", "title": "Certs", "facts": ["AWS-(SAA-CO3)"]}
-  ]
+  ],
+  "process": {
+    "title": "Prozess",
+    "steps": [
+      {
+        "title": "Anforderungsanalyse & Planung",
+        "desc": "Jede erfolgreiche Website oder App beginnt mit einer klaren Zielsetzung. In dieser Phase arbeiten wir eng zusammen, um Ihre Anforderungen und Zielgruppen vollständig zu verstehen - dies dient als Grundlage für einen Projektplan mit Deadline."
+      },
+      {
+        "title": "Wireframing & Design",
+        "desc": "Anhand einer strategischen Inhaltsstrategie und einer soliden Informationsarchitektur erstellen wir ein Wireframe und skizzieren grob den Informationsfluss und die Funktionen der Webseite. In der finalen Designphase wird die Skizze in ein visuell ansprechendes Layout (inklusive Farbkonzept, Typographie und Medien) verwandelt, um das Nutzererlebnis auf allen Geräten zu optimieren."
+      },
+      {
+        "title": "Entwicklung ",
+        "desc": "Sobald das Design abgeschlossen ist, starten wir in die Entwicklungsphase. Hier wird das Design in Code umgewandelt und die Website/App wird gebaut. Anschließend testen wir gewissenhaft auf verschiedenen Geräten und Browsern getestet, um eine  konsistente Benutzererfahrung auf allen Plattformen sicherzustellen."
+      },
+      {
+        "title": "Go Live & Wartung",
+        "desc": "Im letzten Schritt laden wir Dateien und Datenbanken der Website auf den Live-Server und machen die Seite anschließend der Öffentlichkeit zugänglich. Wir bieten eine Wartungsservice an, damit Ihre App oder Webseite immer auf dem neuesten technologischen Stand bleibt.."
+      }
+    ]
+  }
 }
