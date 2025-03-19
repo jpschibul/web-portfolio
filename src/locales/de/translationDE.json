@@ -73,5 +73,30 @@
         "desc": "Im letzten Schritt laden wir Dateien und Datenbanken der Website auf den Live-Server und machen die Seite anschließend der Öffentlichkeit zugänglich. Wir bieten eine Wartungsservice an, damit Ihre App oder Webseite immer auf dem neuesten technologischen Stand bleibt.."
       }
     ]
+  },
+  "testimonials": {
+    "title": "Testimonials",
+    "list": [
+      {
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "name": "Emma Scott",
+        "title": "Project Manager, Accenture"
+      },
+      {
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "name": "Kristina Balakova",
+        "title": "UX/UI designer"
+      },
+      {
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "name": "Name Surname",
+        "title": "Position, Company"
+      },
+      {
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "name": "Name Surname",
+        "title": "Position, Company"
+      }
+    ]
   }
 }

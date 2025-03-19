@@ -3,6 +3,7 @@ import Navbar from '../layout/Navbar';
 import Motto from '../sections/Motto';
 import SkillsGrid from '../sections/SkillsGrid';
 import Process from '../sections/Process';
+import Testimonials from '../sections/Testimonials';
 
 const Homepage = () => {
   return (
@@ -12,6 +13,7 @@ const Homepage = () => {
       <Motto />
       <SkillsGrid />
       <Process />
+      <Testimonials />
       {/* Gradients top-left*/}
       {/* <div
         aria-hidden="true"

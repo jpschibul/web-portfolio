@@ -25,3 +25,14 @@ export type ProcessSteps = {
   title: string;
   desc: string;
 };
+
+export type TestimonialsType = {
+  title: string;
+  list: TestimonalList[];
+};
+
+export type TestimonalList = {
+  desc: string;
+  name: string;
+  title: string;
+};

@@ -79,5 +79,30 @@
         "desc": "We will upload the web files and databases to the live server and then the site is made publicly accessible. To keep up to date we offer maintenance services to keep up with the ever-changing web standards and technologies for your website."
       }
     ]
+  },
+  "testimonials": {
+    "title": "Testimonials",
+    "list": [
+      {
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "name": "Emma Scott",
+        "title": "Project Manager, Accenture"
+      },
+      {
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "name": "Kristina Balakova",
+        "title": "UX/UI designer"
+      },
+      {
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "name": "Name Surname",
+        "title": "Position, Company"
+      },
+      {
+        "desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "name": "Name Surname",
+        "title": "Position, Company"
+      }
+    ]
   }
 }
