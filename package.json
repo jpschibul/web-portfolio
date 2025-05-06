@@ -26,6 +26,7 @@
     "i18next-browser-languagedetector": "^8.0.0",
     "i18next-http-backend": "^3.0.1",
     "lint-staged": "^15.4.3",
+    "motion": "^12.6.3",
     "next": "link:@splinetool/react-spline/next",
     "postcss": "^8.5.3",
     "postcss-import": "^16.1.0",

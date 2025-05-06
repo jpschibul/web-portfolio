@@ -39,11 +39,25 @@ export default {
           '0%': {transform: 'scaleX(1)'},
           // '80%': {transform: 'scaleX(1.2)'},
           '100%': {transform: 'scaleX(0)'}
+        },
+        'scroll-left': {
+          'to': {
+            // to avoid jump in gap, set the 0.5 rem
+            transform: 'translate(calc(-50% - 0.5rem))'
+          }
+        },
+        'scroll-right': {
+          'to': {
+            // to avoid jump in gap, set the 0.5 rem
+            transform: 'translate(calc(40% - 0.5rem))'
+          }
         }
       },
       animation: {
         'open-menu': 'open-menu 0.5s ease-in-out forwards',
-        'close-menu': 'close-menu 0.5s ease-in-out backwards'
+        'close-menu': 'close-menu 0.5s ease-in-out backwards',
+        'scroll-left': 'scroll-left 40s linear infinite',
+        'scroll-right': 'scroll-right 40s linear infinite'
       },
       backgroundImage: {
         'custom-gradient':

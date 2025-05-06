@@ -4,6 +4,7 @@ import Motto from '../sections/Motto';
 import SkillsGrid from '../sections/SkillsGrid';
 import Process from '../sections/Process';
 import Testimonials from '../sections/Testimonials';
+import ImgSlider from '../sections/ImgSlider';
 
 const Homepage = () => {
   return (
@@ -11,6 +12,10 @@ const Homepage = () => {
       <Navbar />
       <Hero />
       <Motto />
+      <SkillsGrid />
+      <Process />
+      <Testimonials />
+      <ImgSlider />
       <SkillsGrid />
       <Process />
       <Testimonials />
